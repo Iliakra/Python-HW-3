@@ -12,7 +12,7 @@ def my_func():
     continue_value = ""
 
     while continue_value != "/":
-        user_nums = input("Введите строку чисел, разделенных пробелом  ").split()
+        user_nums = input("Введите строку чисел, разделенных пробелом и/или символ '/' для завершения программы   ").split()
         for el in user_nums:
             if el == '/':
                 continue_value = el
