@@ -10,5 +10,10 @@ def my_func(num_1, num_2, num_3):
     print(arg_list[0] + arg_list[1])
 
 
-my_func(10, 1, 100)
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+
+
+my_func(a, b, c)
 

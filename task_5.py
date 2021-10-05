@@ -13,14 +13,17 @@ def my_func():
 
     while continue_value != "/":
         user_nums = input("Введите строку чисел, разделенных пробелом и/или символ '/' для завершения программы   ").split()
+        result_nums = []
         for el in user_nums:
             if el == '/':
                 continue_value = el
-                user_nums.remove(el)
-        nums_list = list(map(int, user_nums))
+                break
+            result_nums.append(el)
+        nums_list = list(map(int, result_nums))
         nums_sum = sum(nums_list)
         my_sum += nums_sum
         print(my_sum)
 
 
 my_func()
+

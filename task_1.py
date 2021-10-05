@@ -12,8 +12,8 @@ def my_div_func(arg_1, arg_2):
     return result
 
 
-num_1 = int(input("Введите делимое: "))
-num_2 = int(input("Введите делитель: "))
+num_1 = float(input("Введите делимое: "))
+num_2 = float(input("Введите делитель: "))
 
 print(my_div_func(num_1, num_2))
 

@@ -13,9 +13,6 @@ def my_func_1(x, y):
     return x ** y
 
 
-print(my_func_1(2.5, -3))
-
-
 # С помощью оператора цикла
 
 def my_func_2(x, y):
@@ -27,5 +24,10 @@ def my_func_2(x, y):
     return 1/x
 
 
-print(my_func_2(2.5, -3))
+x = int(input("x: "))
+y = int(input("y: "))
+
+
+print(my_func_1(x, y))
+print(my_func_2(x, y))
 
